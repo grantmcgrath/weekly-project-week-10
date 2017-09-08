@@ -25,12 +25,20 @@
   background-color: grey;
 }
 
+#item_image {
+
+}
+
 a {
   text-decoration: none;
 }
 
 a:hover {
 
+}
+
+summary {
+  outline: none;
 }
 
 .no {
@@ -50,4 +58,64 @@ a:hover {
 .link {
   padding: 5px;
   /*border: 1px solid black;*/
+}
+
+.item_image {
+  width: 200px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  /*border: 3px solid black;
+  border-radius: 5px;*/
+  /*padding: 5px;
+  margin-bottom: 10px;*/
+}
+
+.details {
+  margin-left: 10px;
+}
+
+.box
+{
+	position: relative;
+	/*width: 500px;*/
+	padding:  15px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.box:before, .box:after
+{
+	position: absolute;
+	width: 40%;
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+}
+
+.box:after
+{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
 }
