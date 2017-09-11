@@ -29,6 +29,17 @@
 
 }
 
+#page_header, #about_header {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#main-page {
+  display: flex;
+  flex-direction: row;
+}
+
 a {
   text-decoration: none;
 }
@@ -40,6 +51,17 @@ a:hover {
 summary {
   outline: none;
 }
+
+.button_container {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100px;
+}
+
+.main_page_btn {
+   width: 100px;
+   align-items: center;
+ }
 
 .no {
   padding: 0;
@@ -77,6 +99,30 @@ summary {
   margin-left: 10px;
 }
 
+/*Styling for Contact Page*/
+#form_input {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 5px;
+  background-color: grey;
+  border: 0;
+  padding: 10px;
+}
+
+.form {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.name, .email {
+  width: 50%;
+}
+
+/*.box styling was found online and probaly overused.*/
 .box
 {
 	position: relative;

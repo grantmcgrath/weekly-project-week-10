@@ -10,7 +10,7 @@ class Mac extends Component {
     }
   }
 
-// Fetches mac_app Data
+// Fetches Mac App Data from iTunes
 componentDidMount() {
   fetch("https://itunes.apple.com/lookup?id=430255202,502401013,409930131")
     .then(response => response.json())

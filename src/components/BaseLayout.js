@@ -13,8 +13,8 @@ export default class BaseLayout extends Component {
         <nav id="main_nav" className="no">
           <div className="nav_logo link no"><NavLink to="/">iTunes Stuff</NavLink></div>
 
-          <div className="nav_company_info link no"><NavLink to="/About">About Us</NavLink></div>
-          <div className="link no"><NavLink to="/Contact">Contact Us</NavLink></div>
+          <div className="nav_company_info link no"><NavLink to="/About">About</NavLink></div>
+          <div className="link no"><NavLink to="/Contact">Contact</NavLink></div>
         </nav>
 
         <nav id="secondary_nav">
